@@ -11,7 +11,7 @@ function App() {
     {
       path: "/",
       element: <Layout />,
-      // errorElement: <NotFound />,
+      errorElement: <NotFound />,
       children: [
         {
           path: "/",
